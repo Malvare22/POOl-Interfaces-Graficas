@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LineaController
+comment1.params=event
+comment1.target=void\ actualizar(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ ayuda(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ determinarUbicacion(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ informacion(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ initialize()
+numComments=6

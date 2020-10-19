@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ClockController
+comment1.params=event
+comment1.target=void\ AdicionarHora(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ AdicionarMinutos(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ AdicionarSegundos(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ ObtenerInformacion(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ actualizarGUI()
+comment6.params=
+comment6.target=void\ initialize()
+numComments=7

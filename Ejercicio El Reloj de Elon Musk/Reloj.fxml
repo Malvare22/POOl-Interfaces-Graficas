@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClockController">
+   <children>
+      <Button fx:id="lblAumentoHoras" layoutX="32.0" layoutY="238.0" mnemonicParsing="false" onAction="#AdicionarHora" prefHeight="44.0" prefWidth="63.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="lblAumentoSegundos" layoutX="252.0" layoutY="238.0" mnemonicParsing="false" onAction="#AdicionarSegundos" prefHeight="44.0" prefWidth="63.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="lblAumentoMinutos" layoutX="142.0" layoutY="238.0" mnemonicParsing="false" onAction="#AdicionarMinutos" prefHeight="44.0" prefWidth="63.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="242.0" fitWidth="231.0" layoutX="378.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagen.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="103.0" prefHeight="108.0" prefWidth="14.0" text=":" textAlignment="CENTER">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="220.0" layoutY="103.0" prefHeight="108.0" prefWidth="14.0" text=":" textAlignment="JUSTIFY">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblHoras" alignment="CENTER" layoutX="32.0" layoutY="110.0" prefHeight="108.0" prefWidth="63.0" text="00">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMinutos" alignment="CENTER" layoutX="142.0" layoutY="110.0" prefHeight="108.0" prefWidth="63.0" text="00">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSegundos" alignment="CENTER" layoutX="252.0" layoutY="110.0" prefHeight="108.0" prefWidth="63.0" text="00">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="105.0" layoutY="14.0" prefHeight="58.0" prefWidth="390.0" text="Reloj de Elon Musk">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="lblAcercaDe" layoutX="498.0" layoutY="374.0" mnemonicParsing="false" onAction="#ObtenerInformacion" prefHeight="25.0" prefWidth="101.0" text="Acerca de..." />
+      <Button fx:id="lblReduccionHoras" layoutX="32.0" layoutY="299.0" mnemonicParsing="false" onAction="#ReducirHora" prefHeight="44.0" prefWidth="63.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="lblReduccionMinutos" layoutX="142.0" layoutY="299.0" mnemonicParsing="false" onAction="#ReducirMinutos" prefHeight="44.0" prefWidth="63.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="lblReduccionSegundos" layoutX="252.0" layoutY="299.0" mnemonicParsing="false" onAction="#ReducirSegundos" prefHeight="44.0" prefWidth="63.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
