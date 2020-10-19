@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ControllerMaquinaCafetera
+comment1.params=event
+comment1.target=void\ FijarPrecioBaseCafe(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ PrepararCafe(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ RecargarAzucar(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ RecargarCafe(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ RecargarVasos(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ RegistrarFactura(javafx.event.ActionEvent)
+comment7.params=
+comment7.target=void\ initialize()
+numComments=8
