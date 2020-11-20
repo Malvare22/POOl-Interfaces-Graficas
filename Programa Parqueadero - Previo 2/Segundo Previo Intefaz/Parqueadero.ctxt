@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Parqueadero
+comment0.text=Previo\ elaborado\ por\:\r\n\ Juan\ Esteban\ Serrano\ Rodelo\ 1152033\ \r\n\ \ correo\:\ juanestebansero@ufps.edu.co\r\nRodrigo\ Andres\ Malaver\ Suarez\ 1152016\r\n\ \ correo\:\ rodrigoandresmasu@ufps.edu.co\r\n
+comment1.params=
+comment1.target=Parqueadero()
+comment2.params=capacidad
+comment2.target=Parqueadero(int)
+comment3.params=vehiculo
+comment3.target=int\ ingresarVehiculo(Vehiculo)
+comment4.params=placa\ hora\ minuto\ segundo
+comment4.target=Vehiculo\ retirarVehiculo(java.lang.String,\ int,\ int,\ int)
+comment5.params=placa
+comment5.target=int\ buscarVehiculo(java.lang.String)
+comment6.params=tipoVehiculo
+comment6.target=double\ getValorBrutoServicio(int)
+comment7.params=
+comment7.target=Vehiculo[]\ getVehiculos()
+comment8.params=
+comment8.target=java.util.ArrayList\ getHistorialVehiculos()
+numComments=9

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ParqueaderoController
+comment0.text=Previo\ elaborado\ por\:\r\n\ Juan\ Esteban\ Serrano\ Rodelo\ 1152033\ \r\n\ \ correo\:\ juanestebansero@ufps.edu.co\r\nRodrigo\ Andres\ Malaver\ Suarez\ 1152016\r\n\ \ correo\:\ rodrigoandresmasu@ufps.edu.co\r\n
+comment1.params=event
+comment1.target=void\ consultarVehiculo(javafx.event.ActionEvent)
+comment10.params=
+comment10.target=void\ initialize()
+comment2.params=event
+comment2.target=void\ limpiar(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ limpiarDatos()
+comment4.params=event
+comment4.target=void\ registrarIngreso(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ actualizarSalida()
+comment6.params=event
+comment6.target=void\ registrarSalida(javafx.event.ActionEvent)
+comment7.params=texto
+comment7.target=void\ gestorAlertasError(java.lang.String)
+comment8.params=
+comment8.target=void\ mensajeRegistro()
+comment9.params=
+comment9.target=void\ actualizarCuadricula()
+numComments=11

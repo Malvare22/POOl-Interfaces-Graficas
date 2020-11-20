@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CarroGrande
+comment0.text=Previo\ elaborado\ por\:\r\n\ Juan\ Esteban\ Serrano\ Rodelo\ 1152033\ \r\n\ \ correo\:\ juanestebansero@ufps.edu.co\r\nRodrigo\ Andres\ Malaver\ Suarez\ 1152016\r\n\ \ correo\:\ rodrigoandresmasu@ufps.edu.co\r\n
+comment1.params=placa\ cedulaPropietario\ hora\ minuto\ segundo
+comment1.target=CarroGrande(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment1.text=COMPLETE
+numComments=2
